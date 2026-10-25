@@ -1,0 +1,27 @@
+# Generated models and Python caches
+model.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+
+# Temporary assets / backups / archives
+*.zip
+*_backup.py
+*.bak
+*.log
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large ROS or local data artifacts
+bags/
+rosbags/
+checkpoints/
